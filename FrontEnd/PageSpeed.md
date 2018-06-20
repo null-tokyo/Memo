@@ -50,17 +50,17 @@ Webページの最初のレンダリングが行われるまでに必要な一�
 3. レンダリングツリーの構築とレンダリング
 
 
-## レンダリング処理の最適化
-
-
-
 ## スクリプト処理の最適化
+### スクリプト処理の最適化の基本方針
+* UIブロッキングにつながる長大な処理を避ける
+* メモリーリークの回避、GC（Garbage Collection）を把握する
 
 
 ## ネットワーク処理の効率化に役立つテクニック
 
 ### Service Worker
-調べる
+参考文献
+* [Service Worker の紹介 | Web | Google Developers](https://developers.google.com/web/fundamentals/primers/service-workers/?hl=ja)
 
 ### Resource Hints
 参考文献
